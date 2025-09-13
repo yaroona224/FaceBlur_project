@@ -1,0 +1,14 @@
+numpy==1.26.4
+shapely==2.0.6
+tqdm>=4.65
+matplotlib>=3.7
+flask==3.0.3
+gunicorn>=21.2
+opencv-contrib-python-headless==4.10.0.84
+ultralytics==8.3.194
+insightface==0.7.3
+onnxruntime==1.20.1
+paddleocr>=2.7
+paddlepaddle==2.6.1
+
+
