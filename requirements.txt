@@ -1,14 +1,20 @@
-numpy==1.26.4
-shapely==2.0.6
-tqdm>=4.65
-matplotlib>=3.7
+# --- Web ---
 flask==3.0.3
-gunicorn>=21.2
-opencv-contrib-python-headless==4.10.0.84
+gunicorn==21.2.0
+
+# --- Core CV / YOLO ---
 ultralytics==8.3.194
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+tqdm==4.66.4
+shapely==2.0.6
+
+# --- Face detection / ONNX ---
 insightface==0.7.3
 onnxruntime==1.20.1
-paddleocr>=2.7
-paddlepaddle==2.6.1
+
+# --- OCR (matches Paddle 3.x) ---
+paddleocr==3.2.0
+paddlepaddle==3.2.0
 
 
